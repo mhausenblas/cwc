@@ -67,6 +67,7 @@ class Info(tornado.web.RequestHandler):
       self.set_header("Content-Type", "application/json")
       self.write(json_encode(
         {
+          "version" : VERSION,
           "running_on" : self.request.host,
           "request_from" : self.request.remote_ip
         }

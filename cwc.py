@@ -29,7 +29,7 @@ DEBUG = True
 PORT = os.getenv('CWCPORT', 9876)
 
 # Defines the current version of the app server:
-VERSION = '0.2'
+VERSION = '0.3'
 
 if DEBUG:
   FORMAT = "%(asctime)-0s %(levelname)s %(message)s [at line %(lineno)d]"
